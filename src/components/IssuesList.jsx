@@ -9,7 +9,6 @@ export default function IssuesList({ labels, status }) {
       res.json()
     );
   });
-  console.log(issuesQuery.data);
   return (
     <div>
       <h2>Issues List</h2>
